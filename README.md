@@ -1,6 +1,9 @@
 # Make-forwarder
 Creates dsiware forwarders to nds roms in the sd card to be launched via the nds-bootstrap
 
+# Linux/Mac support
+To compile the program for those platforms, download the source and run the command ```g++ *.cpp -o make_forwarder```
+
 # Usage
 ## Pc part
 Make sure to have the [template.nds](https://github.com/edo9300/Rungame-template) file in the same folder as the executable.
