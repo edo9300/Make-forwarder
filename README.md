@@ -3,7 +3,7 @@ Creates dsiware forwarders to nds roms in the sd card to be launched via the nds
 
 # Usage
 ## Pc part
-Make sure to have the template.nds file in the same folder as the executable.
+Make sure to have the [template.nds](https://github.com/edo9300/Rungame-template) file in the same folder as the executable.
 Drag your rom on the exe, and it will create a "title" folder.
 Copy the created folder in the root of your sd card.
 ## Dsi part
