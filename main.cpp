@@ -51,7 +51,7 @@ int main(int argc, char **argv) {
 
 	MakeTmd(exepath + FOLDER_SEPARATOR + "banner.nds", exepath + FOLDER_SEPARATOR + "title.tmd");
 	
-	std::fstream infile2(workingdir + FOLDER_SEPARATOR + "banner.nds", std::fstream::binary | std::fstream::out | std::fstream::in);
+	std::fstream infile2(exepath + FOLDER_SEPARATOR + "banner.nds", std::fstream::binary | std::fstream::out | std::fstream::in);
 	infile2.seekg(0, infile2.beg);
 
 	std::string str((std::istreambuf_iterator<char>(infile2)),
